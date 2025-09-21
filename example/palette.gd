@@ -1,0 +1,28 @@
+class_name Palette
+
+enum Colors {
+	BLACK = 0,
+	CHARCOAL = 1,
+	INDIGO = 2,
+	SLATE_PURPLE = 3,
+	ROYAL_BLUE = 4,
+	STEEL_BLUE = 5,
+	DARK_TEAL = 6,
+	TEAL = 7,
+	FOREST_GREEN = 8,
+	OLIVE = 9,
+	MAUVE = 10,
+	ASH_GRAY = 11,
+	GRAY = 12,
+	KHAKI = 13,
+	BROWN = 14,
+	SADDLE_BROWN = 15,
+	CRIMSON = 16,
+	ORANGE = 17,
+	LIGHT_GOLD = 18,
+	IVORY = 19,
+	SKY_BLUE = 20,
+	GREEN = 21,
+	ROSE = 22,
+	VIOLET = 23,
+}

@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://bq8ql7ij2nb0e"]
+
+[ext_resource type="Script" uid="uid://dp2wckn8wosu6" path="res://example/main.gd" id="1_85x0u"]
+[ext_resource type="Script" uid="uid://bw5q2gggssx5c" path="res://addons/ascii_screen/ascii_screen.gd" id="1_iyjup"]
+[ext_resource type="Texture2D" uid="uid://bcwd6lgoxvkmp" path="res://example/dungeon-437.png" id="2_hwn3c"]
+[ext_resource type="Texture2D" uid="uid://dvoxquvpvnpab" path="res://example/dungeon-pal.png" id="3_ca0d4"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_85x0u")
+
+[node name="AsciiScreen" type="Node2D" parent="."]
+script = ExtResource("1_iyjup")
+grid_size = Vector2i(16, 16)
+charset_texture = ExtResource("2_hwn3c")
+palette_texture = ExtResource("3_ca0d4")
+metadata/_custom_type_script = "uid://bw5q2gggssx5c"
